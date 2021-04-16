@@ -1,0 +1,116 @@
+[
+  {
+    "Category": "Appetizers",
+    "Item": "Nachos",
+    "Description": "",
+    "Price": 4
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Nachos with Beans",
+    "Description": "",
+    "Price": 4.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Nachos with Chicken",
+    "Description": "",
+    "Price": 6.5
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Nachos with Beef",
+    "Description": "",
+    "Price": 6.5
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Nachos with Beef & Beans",
+    "Description": "",
+    "Price": 6.5
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Sweet Nachos",
+    "Description": "Nachos with melted cheese with special homemade sweet sauce and chicken",
+    "Price": 6.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Cheese Dip",
+    "Description": "",
+    "Price": 3.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Spinach Dip",
+    "Description": "",
+    "Price": 4.25
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Guacamole Dip",
+    "Description": "",
+    "Price": 3.25
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Bean Dip",
+    "Description": "",
+    "Price": 4.25
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Guacamole a la Mexicana",
+    "Description": "Fresh avocado with chopped onion, jalapeno pepper, tomato and cilantro",
+    "Price": 6.95
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Guacamole Salad",
+    "Description": "",
+    "Price": 2.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Stuffed Jalapenos",
+    "Description": "",
+    "Price": 5.25
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Choriqueso",
+    "Description": "",
+    "Price": 5.5
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Loaded French Fries",
+    "Description": "French fries with bacon and cheese sauce on top",
+    "Price": 4.5
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Jalapeno Skins",
+    "Description": "Fresh peppers, seeded, stuffed with cheese and fried. Then topped with chicken sauteed in our special Mexican sauce",
+    "Price": 6.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Backet of Wings",
+    "Description": "Mild, Hot, X-Treme, Mango Habanero, or BBQ (6) - 5.75 (12) - 9.75",
+    "Price": 9.75
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Basket of Tenders",
+    "Description": "with fries",
+    "Price": 5.95
+  },
+  {
+    "Category": "Appetizers",
+    "Item": "Plato Fiesta",
+    "Description": "Six wings, four chicken tenders, and fries",
+    "Price": 9.95
+  }
+]
