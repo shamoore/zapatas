@@ -4,6 +4,8 @@ import 'package:stacked/stacked.dart';
 import 'package:zapatas/menuService.dart';
 import 'package:zapatas/menuViewModel.dart';
 
+import 'resources/strings.dart';
+
 class MenuView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -36,7 +38,7 @@ List<Widget> _buildMenuItems(List<MenuItem> listOfItems) {
   for (var i = 0; i < listOfItems.length; i++) {
     var thisItem = listOfItems[i];
     var category = thisItem.category;
-    var lastCategory = listOfItems[i - 1].category;
+    var lastCategory = i != 0 ? listOfItems[i - 1].category : Strings.emptyString;
 
     if (category != lastCategory) {
       menuItems.add(
