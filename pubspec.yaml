@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   stacked: ^2.0.4
   cupertino_icons: ^1.0.2
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
@@ -19,6 +20,14 @@ dev_dependencies:
 flutter:
   assets:
     - assets/menu.json
+    - assets/
+  fonts:
+    - family: Burrito
+      fonts:
+        - asset: assets/burrito.TTF
+    - family: Roboto
+      fonts:
+        - asset: assets/roboto.TTF
   uses-material-design: true
 
 

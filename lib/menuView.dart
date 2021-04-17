@@ -1,62 +1,127 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:stacked/stacked.dart';
 import 'package:zapatas/menuService.dart';
 import 'package:zapatas/menuViewModel.dart';
 
 import 'resources/strings.dart';
+import 'resources/theme.dart';
 
 class MenuView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder<MenuViewModel>.reactive(
-      builder: (context, model, child) => Scaffold(
-        backgroundColor: Colors.blueGrey,
-        body: SingleChildScrollView(
-          padding: EdgeInsets.all(100),
-          child: Container(
-            child: Column(
-                children: model.menuItems != null
-                    ? _buildMenuItems(model.menuItems)
-                    : [
-                        Text("no menu found"),
-                        ElevatedButton(
-                          onPressed: () => model.getMenu(),
-                          child: Text('GetMenu'),
-                        ),
-                      ]),
-          ),
-        ),
-      ),
-      viewModelBuilder: () => MenuViewModel(),
-    );
+        builder: (context, model, child) {
+          model.getMenu();
+          return Scaffold(
+            backgroundColor: Colors.orangeAccent,
+            body: SingleChildScrollView(
+              padding: EdgeInsets.only(left: 15, right: 15),
+              child: Container(
+                child: Column(children: _getMenu(model.menu, context)),
+              ),
+            ),
+          );
+        },
+        viewModelBuilder: () => MenuViewModel());
   }
 }
 
-List<Widget> _buildMenuItems(List<MenuItem> listOfItems) {
-  List<Widget> menuItems = <Widget>[];
-  for (var i = 0; i < listOfItems.length; i++) {
-    var thisItem = listOfItems[i];
-    var category = thisItem.category;
-    var lastCategory = i != 0 ? listOfItems[i - 1].category : Strings.emptyString;
+List<Widget> _getMenu(List<MenuCategory> categories, BuildContext context) {
+  List<Widget> menu = [];
+  menu.addAll(_getHeader());
+  menu.addAll(_getExpandables(categories, context));
+  return menu;
+}
 
-    if (category != lastCategory) {
-      menuItems.add(
-        Row(
-          children: [Text(category)],
+List<Widget> _getExpandables(List<MenuCategory> categories, BuildContext context) {
+  List<Widget> expandables = [];
+  for (var i = 0; i < categories.length; i++) {
+    var thisCategory = categories[i];
+
+    ExpansionTile tile = ExpansionTile(
+        title: Text(thisCategory.name, style: categoryTextStyle), initiallyExpanded: false, children: _categoryItems(thisCategory.items, context));
+    expandables.add(tile);
+  }
+  return expandables;
+}
+
+List<Widget> _getHeader() {
+  List<Widget> header = [];
+  header.add(
+    Image(
+      image: AssetImage('assets/logo.png'),
+    ),
+  );
+  header.add(
+    Text(
+      Strings.phone,
+      style: categoryTextStyle,
+    ),
+  );
+  header.add(
+    Text(
+      Strings.address,
+      style: categoryTextStyle,
+    ),
+  );
+
+  header.add(
+    SizedBox(height: 50),
+  );
+  return header;
+}
+
+String getPrice(num price) {
+  if (price != null) {
+    final currencyFormat = NumberFormat("#,##0.00", "en_US");
+    return '\$${currencyFormat.format(price)}';
+  } else
+    return Strings.emptyString;
+}
+
+List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
+  List<Widget> items = [];
+
+  for (var j = 0; j < menuItems.length; j++) {
+    var thisMenuItem = menuItems[j];
+    items.add(Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(thisMenuItem.name, style: menuTextStyle),
+        Text(
+          getPrice(thisMenuItem.price),
+          style: menuTextStyle,
         ),
-      );
-    }
-
-    menuItems.add(
+      ],
+    ));
+    items.add(
       Row(
-        children: [
-          Text(thisItem.name),
-          Text(thisItem.price.toString()),
-        ],
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: thisMenuItem.description.length != null && thisMenuItem.description.length > 0
+            ? [
+                Expanded(
+                  child: Text(
+                    thisMenuItem.description,
+                  ),
+                ),
+              ]
+            : [],
       ),
+    );
+    items.add(
+      dividerLine(),
+    );
+    items.add(
+      SizedBox(height: 10),
     );
   }
 
-  return menuItems;
+  return items;
 }
+
+Widget dividerLine() => Container(
+      height: 1,
+      color: Colors.black12,
+    );

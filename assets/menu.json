@@ -1,116 +1,1643 @@
-[
-  {
-    "Category": "Appetizers",
-    "Item": "Nachos",
-    "Description": "",
-    "Price": 4
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Nachos with Beans",
-    "Description": "",
-    "Price": 4.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Nachos with Chicken",
-    "Description": "",
-    "Price": 6.5
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Nachos with Beef",
-    "Description": "",
-    "Price": 6.5
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Nachos with Beef & Beans",
-    "Description": "",
-    "Price": 6.5
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Sweet Nachos",
-    "Description": "Nachos with melted cheese with special homemade sweet sauce and chicken",
-    "Price": 6.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Cheese Dip",
-    "Description": "",
-    "Price": 3.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Spinach Dip",
-    "Description": "",
-    "Price": 4.25
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Guacamole Dip",
-    "Description": "",
-    "Price": 3.25
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Bean Dip",
-    "Description": "",
-    "Price": 4.25
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Guacamole a la Mexicana",
-    "Description": "Fresh avocado with chopped onion, jalapeno pepper, tomato and cilantro",
-    "Price": 6.95
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Guacamole Salad",
-    "Description": "",
-    "Price": 2.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Stuffed Jalapenos",
-    "Description": "",
-    "Price": 5.25
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Choriqueso",
-    "Description": "",
-    "Price": 5.5
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Loaded French Fries",
-    "Description": "French fries with bacon and cheese sauce on top",
-    "Price": 4.5
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Jalapeno Skins",
-    "Description": "Fresh peppers, seeded, stuffed with cheese and fried. Then topped with chicken sauteed in our special Mexican sauce",
-    "Price": 6.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Backet of Wings",
-    "Description": "Mild, Hot, X-Treme, Mango Habanero, or BBQ (6) - 5.75 (12) - 9.75",
-    "Price": 9.75
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Basket of Tenders",
-    "Description": "with fries",
-    "Price": 5.95
-  },
-  {
-    "Category": "Appetizers",
-    "Item": "Plato Fiesta",
-    "Description": "Six wings, four chicken tenders, and fries",
-    "Price": 9.95
-  }
-]
+{
+  "menu": [
+    {
+      "Category": "Appetizers",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Nachos ",
+          "Description": "",
+          "Price": 4,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nachos with Beans",
+          "Description": "",
+          "Price": 4.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nachos with Chicken",
+          "Description": "",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nachos with Beef",
+          "Description": "",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nachos with Beef & Beans",
+          "Description": "",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Sweet Nachos ",
+          "Description": " Nachos with melted cheese with special homemade sweet sauce and chicken",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheese Dip",
+          "Description": "",
+          "Price": 3.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Spinach Dip",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Guacamole Dip",
+          "Description": "",
+          "Price": 3.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Bean Dip",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Guacamole a la Mexicana",
+          "Description": "Fresh avocado with chopped onion, jalapeño pepper, tomato and cilantro",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Guacamole Salad",
+          "Description": "",
+          "Price": 2.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Stuffed Jalapeños",
+          "Description": "",
+          "Price": 5.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Choriqueso",
+          "Description": "",
+          "Price": 5.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Loaded French Fries",
+          "Description": "French fries with bacon and cheese sauce on top",
+          "Price": 4.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "jalapeño Skins",
+          "Description": "Fresh peppers, seeded, stuffed with cheese and fried. Then topped with chicken sautéed in our special Mexican sauce",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Backet of Wings",
+          "Description": "Mild, Hot, X-Treme, Mango Habanero, or BBQ (6) - 5.75 (12) - 9.75",
+          "Price": 9.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Basket of Tenders",
+          "Description": "with fries",
+          "Price": 5.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Plato Fiesta",
+          "Description": "Six wings, four chicken tenders, and fries",
+          "Price": 9.95,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Lunch",
+      "Description": "Served daily until 3:00pm. Add $1.00 after 3:00pm.",
+      "Items": [
+        {
+          "Item": "Speedy Gonzales",
+          "Description": "One taco, one enchilada and choice of rice or beans",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 1",
+          "Description": "One chile relleno, one taco, fried beans and guacamole salad",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 2",
+          "Description": "One beef burrito, rice and beans",
+          "Price": 6,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 3",
+          "Description": "One cnchilada and one chalups",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 4",
+          "Description": "One chile relleno, rice and beans",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 5",
+          "Description": "One burrito and one chalupa",
+          "Price": 6,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 6",
+          "Description": "One grilled chicken or steak quesadilla, rice and beans",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 7",
+          "Description": "One enchilada, rice and beans",
+          "Price": 5.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 8",
+          "Description": "Two eggs with sauce, rice, beans and tortillas",
+          "Price": 5.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 9",
+          "Description": "Lunch Fajitas, beef or chicken, with salad, rice and fried beans",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Lunch Texas Fajitas",
+          "Description": "",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Lunch Shrimp Fajitas",
+          "Description": "",
+          "Price": 9.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Lunch Mixed Fajitas",
+          "Description": "",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 10",
+          "Description": "One burrito filled with thinly-sliced steam and grilled onions, covered with nacho cheese. Serviced with rice or beans and salad",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 11 - Pollo Ranchero",
+          "Description": "Grilled chicken breast covered with melted cheese and ranchero sauce and served with rice and salad",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 12 - Pollo Borracho",
+          "Description": "Grilled chicken breast topped with grilled bell peppers, onions, and special sauce. Served with rice and beans",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 13 - Pollo Salad",
+          "Description": "Grilled chicken breast with lettuce, sliced tomatoes, bell peppers, onions and cheese",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 14 - Chile Poblano",
+          "Description": "One chile poblano served with rice, beans, and tortillas",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 15 - Chilaquiles Mexicanos",
+          "Description": "Corn chips with chicken chunks cooked with cheese and our special sauce. Served with rice and beans",
+          "Price": 6.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 16 - Chimichanga",
+          "Description": "Beef or chicken, served with salad and beans",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 17 - Fajitas Quesadilla",
+          "Description": "Beef or chicken, served with rice and salad",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 18 - Fajita Nachos",
+          "Description": "Beef or chicken, with bell peppers and onions on a bed of nacho chips On rice, add $1.00",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Mixed Fajita Nachos",
+          "Description": "On rice, add $1.00",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Texas Fajita Nachos",
+          "Description": "On rice, add $1.00",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Fajita Nachos",
+          "Description": "On rice, add $1.00",
+          "Price": 9.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 19 - Taco Salad",
+          "Description": "Beef or chicken, beans, lettuce, sour cream, and tomatoes",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 20 - Bowl of Chicken Soup",
+          "Description": "",
+          "Price": 5.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 21",
+          "Description": "One grilled chicken or beef quesadilla with salad",
+          "Price": 5.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 22 - Nacho Supreme",
+          "Description": "Beef, beans, lettuce, sour cream and tomatoes",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 23",
+          "Description": "Mushroom or spinach quesadilla, salad, rice and beans",
+          "Price": 6.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 24 - Fajita Burrito",
+          "Description": "One regular burrito with steak or chicken cooked with peppers and onions and topped with cheese sauce. Served with rice and salad",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 25",
+          "Description": "One burrito deluxe and one chile relleno",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Special Lunch No. 26 - Molcajete",
+          "Description": "Grilled chicken, steam and shrimp, sautéed onions with Mexican sausage and melted cheese",
+          "Price": 10.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "House Special Dishes",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Molcajete",
+          "Description": "Grilled chicken, steam and chrimp, sautéed onions with Mexican sausage and melted cheese Add beans, 1.00. Add Rice, 1.00. Add salad, 1.00.",
+          "Price": 13.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Choripollo",
+          "Description": "Grilled chicken breast sautéed with Mexican sausage, with cheese sauce on top. Served with rice and beans",
+          "Price": 10.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "La Macarena",
+          "Description": "A combination of pork, chicken, steam, shrimp and Mexican sausage all deliciously grilled with bell peppers, onions, tomatoes, and muchrooms. Served with rice, refried black beans, salad, and tortillas",
+          "Price": 15.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Vegetable Enchiladas",
+          "Description": "Two enchiladas stuffed with spinach, celery, muchrooms, zucchini, carrots, and onions. Topped with our special cheese sauce, and tomato sauce. Served with rice and refried beans",
+          "Price": 7.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "De la Casa",
+          "Description": "One tamale, two flautas, beef or chicken, four nachos with chicken, beef, rice and beans and cheese sauce. Topped with lettuce, tomatoes and sour cream",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Burrito Frontera",
+          "Description": "A big burrito filled with grilled steak, mushrooms, onions, beans, and rice. Topped with cheese sauce, lettuce, tomatoes and sour cream",
+          "Price": 12.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Quesadilla California",
+          "Description": "Large quesadilla filled with grilled, marinated chicken, spinach, onions, mushrooms, peppers, tomatoes and cheese. Served with salad",
+          "Price": 11.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "La Favorita",
+          "Description": "One mashed potato burrito and one chicken enchilada topped with tomato sauce, lettuce, sour cream and tomatoes",
+          "Price": 7.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Bistec Fundido",
+          "Description": "Grilled ribeye with onions, peppers and muchrooms with melted cheese on top. Side of mashed potatoes and salad",
+          "Price": 15.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Fajitas Cancun",
+          "Description": "Fresh shrimp, scallops and salmon sautéed with grilled onions, bell peppers and tomatoes. Served with rice, beans, and salad",
+          "Price": 17.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Camarones al Ajo",
+          "Description": "Fresh shrimp sautéed with green onions and minced garlic. Served with rice and salad",
+          "Price": 11.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Marisco Enchiladas",
+          "Description": "Two grilled, marinated shrimp and crab meat enchiladas topped with special roasted poblano pepper cream sauce. Served with rice and salad",
+          "Price": 9.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Camarones a la Diabla",
+          "Description": "Hot and spicy shrimp served with rice, beans and flour tortillas",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Filete de Pescado",
+          "Description": "Grilled tilapia fillet served with white rice, steamed vegetables, pico de gallo and tomatillo sauce",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Bar-B-Que Fajita",
+          "Description": "Tender beef or chicken sliced with bell peppers, onions and barbeque sauce. Served with rice, fried beans, tortillas and salad",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*Los Amigos - ",
+          "Description": "Ribeye steak, chicken breast and shrimp grilled to perfection with grilled onions and pineapple. Served with salad",
+          "Price": 15.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Seafood Burrito",
+          "Description": "Grilled shrimp with bell peppers and onions with our special, creamy poblano sauce. Served with rice",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Quesadillas",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Quesadilla Grill",
+          "Description": "Beef or chicken grilled in the pan in flour tortillas with cheese and salad",
+          "Price": null,
+          "Multi Pricing": "1/2 Order - 6.95 Full Order - 10.75"
+        },
+        {
+          "Item": "Chicken & Cheese Quesadillas",
+          "Description": "Two chicken and cheese quesadillas with guacamole salad and sour cream",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Quesadillas Mexicana",
+          "Description": "One chicken and one beef quesadilla with guacamole salad and sour cream",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Quesadillas",
+          "Description": "Shrimp grilled in a pan with flour tortillas. Served with cheese and salad",
+          "Price": null,
+          "Multi Pricing": "1/2 Order - 6.95 Full Order - 10.75"
+        }
+      ]
+    },
+    {
+      "Category": "Supreme",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Nachos Supreme",
+          "Description": "Nachos with beef, beans, melted cheese, lettuce, sour cream and tomatoes",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Burritos Supreme",
+          "Description": "One beef and one chicken burrito topped with cheese sauce, lettuce, sour cream and tomatoes",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Enchiladas Supreme",
+          "Description": "Four enchiladas - beef, chicken, crab and cheese topped with lettuce, sour cream, cheese, tomatoes and a special sauce",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Poultry",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Pollo Loco",
+          "Description": "Tender sliced chicken cooked with peppers, onions, yellow squash, zucchini, broccoli, tomatoes and a touch of sour cream. Served with rice, beans, and flour tortillas",
+          "Price": 11.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pollo Fundido",
+          "Description": "Grilled chicken breast topped with sautéed bell peppers, onions, and our delicious melted cheese. Served over rice",
+          "Price": 10.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken a la Parrilla",
+          "Description": "Premium chicken with delicately seasoned sauce charbroiled to perfection. Served with salad, sour cream, pico de gallo, rice, beans, and three flour tortillas",
+          "Price": 12.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pollo A La Crema",
+          "Description": "Grilled chicken breast sautéed in our delicious creamy white cheese sauce and served with pinto charro beans, and white rice",
+          "Price": 12.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pollo Al Chipotle",
+          "Description": "Grilled chicken breast sautéed with our chipotle creamy sauce and served with steamed veggies, white rice, and pinto charro beans",
+          "Price": 13.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "San Jose Chicken Special",
+          "Description": "Grilled seasoned chicken breast covered with our special sweet and spicy glaze sauce, topped with mushrooms, onions, and red peppers. Served with broccoli, red potatoes, and Mexican rice",
+          "Price": 13.99,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Pork",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Carnitas Dinner",
+          "Description": "sautéed pork dish with lettuce, sliced avocado, onions, pico de gallo, rice and beans",
+          "Price": 12.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Carnitas Fiesta",
+          "Description": "sautéed pork with carrots and onions. Served with rice, beans, and salad",
+          "Price": 13.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pork Chops",
+          "Description": "Pork chops topped with guajillo butter sauce and served with mashed potatoes, rice and beans",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chile Verde",
+          "Description": "Chunks of pork cooked in tomatillo sauce and served with rice, beans, and tortillas",
+          "Price": 11.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "From the Sea",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Mariscos con Arroz",
+          "Description": "Shrimp, scallops, nacho cheese, guacamole salad and rice",
+          "Price": 13.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Taco Salad",
+          "Description": "Crispy flour shell served with grilled shrimp, onions, bell peppers and salad",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Fajitas Nacho",
+          "Description": "Shrimp with bell peppers and onions on a bed of nacho chips",
+          "Price": null,
+          "Multi Pricing": "1/2 Order - 9.95 Full Order - 13.50"
+        },
+        {
+          "Item": "Shrimp Fajitas Nacho",
+          "Description": "Shrimp cooked with bell peppers and onions. Served with guacamole salad, sour cream, fried beans, rice and tortillas",
+          "Price": null,
+          "Multi Pricing": "For One - 14.75 For Two - 24.75"
+        },
+        {
+          "Item": "Shrimp Cocktail",
+          "Description": "Served with pico de gallo and chopped avocado",
+          "Price": 11.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Platillo Sureño",
+          "Description": "Stir fried shrimp sautéed with broccoli, mushrooms, onions, and bell peppers. Served with rice and salad",
+          "Price": 12.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Brochetas of the Sea",
+          "Description": "Six large shrimp and chicken grilled with onions, and bell peppers. Served with rice, sour cream, and salad",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Camarones con Arroz",
+          "Description": "Shrimp marinated with peppers, mushrooms, onions, squash, and tomatoes. Served with rice, and salad",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Crabmeat Quesadilla",
+          "Description": "Two quesadillas, grilled and stuffed with cheese, and crab. Served with a side of lettuce, sour cream, and tomatoes",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Enchiladas de Cangrejo",
+          "Description": "Three crab enchiliadas topped with lettuce, sour cream, cheese, tomatoes, and special sauce",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Zapata's Quesadilla",
+          "Description": "Shrimp quesadilla mixed with zucchini squash, onions, and bell peppers. Served with rice, salad topped with sour cream, pico de gallo",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tacos de Pescado (3)",
+          "Description": "Braded, deep fried tilapia fingers served with our special chipotle tartar sauce, cabbage, and cilantro salad",
+          "Price": 12.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Carnes",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Fajitas",
+          "Description": "Tender sliced beef or chicken cooked with bell peppers and onions. Served with salad, sour cream, beans, rice, and tortillas",
+          "Price": null,
+          "Multi Pricing": "For One - 11.50 For Two - 21.25"
+        },
+        {
+          "Item": "Fajitas Guerrero",
+          "Description": "Tender sliced beef with bell peppers, onions, mushrooms, broccoli, salad, beans, rice, and tortillas",
+          "Price": null,
+          "Multi Pricing": "For One - 12.25 For Two - 22.95"
+        },
+        {
+          "Item": "Texas Fajitas",
+          "Description": "Tender sliced beef, chicken, and shrimp cooked with bell peppers, and onions. Served with salad, sour cream, beans, rice, and tortillas",
+          "Price": null,
+          "Multi Pricing": "For One - 13.95 For Two - 23.50"
+        },
+        {
+          "Item": "Mixed Fajitas",
+          "Description": "Tender sliced beef, and chicken cooked with bell peppers, and onions. Served with salad, beans, rice, and tortillas",
+          "Price": null,
+          "Multi Pricing": "For One - 12.50 For Two - 21.95"
+        },
+        {
+          "Item": "Fajita Burrito",
+          "Description": "One regular size burrito stuffed with steam, or chicken and cooked with peppers, and onions. Topped with cheese sauce. Served with rice, and salad",
+          "Price": 8.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*Special Zapata's Steak",
+          "Description": "Ribeye steak with bell peppers, onions, and tomatoes. Served with beans, rice, and tortillas",
+          "Price": 15.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Fajita Nachos",
+          "Description": "Sliced beef or chicken with bell peppers, and onions on a bed of nacho chips On a bed of rice, add $1.00",
+          "Price": 0,
+          "Multi Pricing": "1/2 Order - 9.25 Full Order - 12.75"
+        },
+        {
+          "Item": "Mixed Fajita Nachos",
+          "Description": "On a bed of rice, add $1.00",
+          "Price": 0,
+          "Multi Pricing": "1/2 Order - 9.75 Full Order - 13.25"
+        },
+        {
+          "Item": "Texas Fajita Nachos",
+          "Description": "On a bed of rice, add $1.00",
+          "Price": 0,
+          "Multi Pricing": "1/2 Order - 10.50 Full Order - 14.25"
+        },
+        {
+          "Item": "Nachos Machos",
+          "Description": "Grilled steak with bacon, jalapeños, pico de gallo, and sour cream",
+          "Price": 0,
+          "Multi Pricing": "1/2 Order - 9.95 Full Order - 13.75"
+        },
+        {
+          "Item": "Fajita Quesadilla",
+          "Description": "Beef or chicken served with guacamole salad, and sour cream",
+          "Price": 0,
+          "Multi Pricing": "Small - 8.50 Large - 11.50"
+        },
+        {
+          "Item": "*Carne Asada",
+          "Description": "Thin sliced beef with rice, beans, and salad",
+          "Price": 14.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*Steak Tampiqueño",
+          "Description": "Ribeye steak, a cheese enchilada, rice, beans, and salad",
+          "Price": 17.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Steak Burritos",
+          "Description": "Two burritos filled with thinly sliced steak, grilled onions, and covered with nacho cheese. Served with rice, or beans, and salad",
+          "Price": 13.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Bistec a la Mexicana",
+          "Description": "Chunks of steak cooked with peppers, onions, and tomatoes. Served with rice, beans, and tortillas",
+          "Price": 13.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chile Colorado",
+          "Description": "Tender sliced steak with special sauce. Served with rice, beans, and tortillas",
+          "Price": 13.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tacos de Carne Asada",
+          "Description": "Three tacos de carne asada with side orders of beans, and pico de gallo",
+          "Price": 11.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*Ribeye Steak",
+          "Description": "Served with six fried shrimp, French fries, and tossed salad. Your choice of dressing",
+          "Price": 17.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*T-Bone Steak",
+          "Description": "Served with Mexican rice, French fries, and tossed salad. Your choice of dressing",
+          "Price": 16.99,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chiucken or Steak Milanesa",
+          "Description": "Fillet of chicken, or steak breaded, and grilled. Served with rice, and salad",
+          "Price": 13.25,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Especialidades",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Taco Salad",
+          "Description": "Beef or chicken, beans, lettuce, guacamole, sour cream, and tomatoes",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "A Little of Everything",
+          "Description": "Chalupa with guacamole salad, chile relleno, beef taco, enchilada, burrito, rice, and beans",
+          "Price": 13.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Yolandas",
+          "Description": "Three chicken enchiladas topped with special sauce, and served with rice, and salad",
+          "Price": 8.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tex Mex Quesadillas",
+          "Description": "Two spinach, and chicken quesadillas served with guacamole salad",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pollo Ranchero",
+          "Description": "Grillled chicken breast with melted cheese, and ranchero sauce. Served with rice, and salad",
+          "Price": 10.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pollo Borracho",
+          "Description": "Grilled chicken breast with bell peppers, and onions. Covered with sauce, and served with rice, and beans",
+          "Price": 10.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chilaquiles Mexicanos",
+          "Description": "Corn chips with chunks of chicken cooked in cheese, and our special sauce. Served with rice, and salad",
+          "Price": 8.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chimichangas",
+          "Description": "Two flour tortillas deep fried, and filled with chredded beef, or chicken, beans, lettuce, tomatoes, sour cream, nacho cheese, and salad",
+          "Price": 9.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Fajita Taco Salad",
+          "Description": "Fajita beef or chicken, lettuce, guacamole, sour cream, and tomatoes",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Flautas Mexicanas",
+          "Description": "Two chicken and two beef flautas served with rice, and salad",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Zapata's Burrito",
+          "Description": "A big flour tortilla wrapped around chicken, or beef, mushrooms, onions, and tomatoes. Served with guacamole salad, salsa, nacho cheese, and pico de gallo",
+          "Price": 13.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Burritos Mexicanos",
+          "Description": "Two burritos with shredded beef topped with lettuce, sour cream, guacamole, and pico de gallo",
+          "Price": 9.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Monster Burrito",
+          "Description": "A grande (big) burrito topped with cheese sauce, and supreme sauce",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Combinations",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Combination 1",
+          "Description": "One taco, two enchiladas with choice of rice, or beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 2",
+          "Description": "One taco, one enchilada, and one chalupa",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 3",
+          "Description": "One enchilada, one taco, and one chile relleno",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 4",
+          "Description": "One taco, one enchilada, one tostada with cheese, and beef",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 5",
+          "Description": "One beef, and one cheese enchilada, rice, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 6",
+          "Description": "One beef enchilada, one taco, rice, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 7",
+          "Description": "One beef enchilada, one chile relleno, rice, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 8",
+          "Description": "One enchilada, one tamle, rice, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 9",
+          "Description": "One beef quesadilla, one chalups, and rice",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 10",
+          "Description": "Two beef tacos, rice, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 11",
+          "Description": "One beef burrito, one taco, and one enchilada",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 12",
+          "Description": "One tamle, one chile relleno, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 13",
+          "Description": "One chicken quesadilla, one chile relleno, and beans",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 14",
+          "Description": "One burrito, one enchilada, and one tamale",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 15",
+          "Description": "One chalupa, one tostada with nacho cheese, and beef, and one beef taco",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 16",
+          "Description": "One chalupa, one chile relleno, and one enchilada",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 17",
+          "Description": "One chile relleno, one taco, and one chalupa",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 18",
+          "Description": "One burrito, one taco, rice, and beans",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 19",
+          "Description": "One chile relleno, one taco, rice, and beans",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 20",
+          "Description": "One taco, one chile relleno, and one burrito",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 21",
+          "Description": "One chalupa, one burrito, and one taco",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 22",
+          "Description": "One tostaguac, one chicken quesadilla, and one taco",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 23",
+          "Description": "One burrito, one chile relleno, and rice",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 24",
+          "Description": "One enchilada, one burrito, rice, and beans",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 25",
+          "Description": "One beef burrito, one chalupa, and one chile relleno",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 26",
+          "Description": "One beef burrito, one enchilada, and one chile relleno",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 27",
+          "Description": "One beef burrito, one chile relleno, rice, and beans",
+          "Price": 9.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Combination 28 - Arin's Special",
+          "Description": "One chicken quesadilla, one cheese enchilada, and one soft taco",
+          "Price": 9.5,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Soups & Salads",
+      "Description": "Salads served with choice of dressing",
+      "Items": [
+        {
+          "Item": "Spicy Chicken Salad",
+          "Description": "Pieces of grilled chicken breast, sautéed in our hot wing sauce with bacon on a bed of fresh veggies",
+          "Price": 8.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tossed Grilled Chicken Salad",
+          "Description": "Pieces of grilled chicken breast served on a bed of fresh veggies",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Fajita Taco Salad",
+          "Description": "",
+          "Price": 8.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cancun Salad",
+          "Description": "Grilled shrimp with lettuce, tomatoes, cucumbers, mushrooms, and green olives",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tossed Salad",
+          "Description": "",
+          "Price": 3.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken Soup",
+          "Description": "",
+          "Price": 5.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tortilla Chicken Soup",
+          "Description": "",
+          "Price": 6.75,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Side Orders",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Cheese Quesadilla",
+          "Description": "",
+          "Price": 3.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Grilled Chicken or Steak Quesadilla",
+          "Description": "",
+          "Price": 5.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken or Beef Quesadilla",
+          "Description": "",
+          "Price": 4.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Spinach Quesadilla",
+          "Description": "",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Quesadilla",
+          "Description": "",
+          "Price": 5.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Mushroom Quesadilla",
+          "Description": "",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tamale",
+          "Description": "",
+          "Price": 2.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Soft Taco",
+          "Description": "",
+          "Price": 2.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Taco",
+          "Description": "",
+          "Price": 1.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Enchilada",
+          "Description": "",
+          "Price": 2.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken or Cheese Enchilada",
+          "Description": "",
+          "Price": 2.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Tostada",
+          "Description": "",
+          "Price": 3.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef & Cheese Tostada",
+          "Description": "",
+          "Price": 3.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef or Bean Burrito",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef or Chicken Burrito Deluxe",
+          "Description": "",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheese Burrito",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken Burrito",
+          "Description": "",
+          "Price": 4.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nacho Cheese Burrito",
+          "Description": "",
+          "Price": 5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chalupa",
+          "Description": "",
+          "Price": 3.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chile Relleno",
+          "Description": "",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Tostaguac",
+          "Description": "",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Order of Beans",
+          "Description": "",
+          "Price": 1.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Order of Rice",
+          "Description": "",
+          "Price": 1.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Order of Grilled Chicken or Steak with melted cheese",
+          "Description": "",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Order of Grilled Shrimp",
+          "Description": "",
+          "Price": 8.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "French Fries",
+          "Description": "",
+          "Price": 1.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Extra Basket of Chips",
+          "Description": "",
+          "Price": 1.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Extra Salsa for Chips",
+          "Description": "",
+          "Price": 1,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Pico de Gallo",
+          "Description": "",
+          "Price": 1.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shredded Cheese",
+          "Description": "",
+          "Price": 1.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Sour Cream",
+          "Description": "",
+          "Price": 0.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Corn Tortilla (1)",
+          "Description": "",
+          "Price": 0.3,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Flour Tortilla (1)",
+          "Description": "",
+          "Price": 0.3,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "A la Carte",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Chicken or Steak Grileld Quesadillas (2)",
+          "Description": "",
+          "Price": 9.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken Quesadillas (2)",
+          "Description": "",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheese Quesadillas (2)",
+          "Description": "",
+          "Price": 6.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Spinach Quesadillas (2)",
+          "Description": "",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Mushroom Quesadillas (2)",
+          "Description": "",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Shrimp Quesadillas (2)",
+          "Description": "",
+          "Price": 9.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tacos (3)",
+          "Description": "",
+          "Price": 5.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Soft Tacos (3)",
+          "Description": "",
+          "Price": 6.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tamales (3)",
+          "Description": "",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Tostadas (2)",
+          "Description": "",
+          "Price": 6.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef & Cheese Tostadas (2)",
+          "Description": "",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef or Bean Burritos (2)",
+          "Description": "",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken or Cheese Burritos (2)",
+          "Description": "",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chalupas (2)",
+          "Description": "",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tostaguacs (2)",
+          "Description": "",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef Ehchiladas (3)",
+          "Description": "",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken or Cheese Enchiladas (3)",
+          "Description": "",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Little Amigo's Menu",
+      "Description": "Kid's soft drinks - 1.25 For Children 10 years old, and under. Add $1.00 for Adult.",
+      "Items": [
+        {
+          "Item": "Beef Burrito, rice, and French fries",
+          "Description": "",
+          "Price": 4.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef taco, beans, and French fries",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Beef taco, rice, and beans",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheese enchilada, rice, and beans",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheese quesadilla with rice",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken tenders and French fries",
+          "Description": "",
+          "Price": 4.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Wings, tenders, and French fries",
+          "Description": "",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chicken or beef fajita",
+          "Description": "",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Cheeseburger with French fries",
+          "Description": "",
+          "Price": 3.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Grilled chicken with cheese",
+          "Description": "",
+          "Price": 5.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Kid's taco salad",
+          "Description": "",
+          "Price": 4.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Grilled shrimp and French fries",
+          "Description": "",
+          "Price": 6.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "*Ribeye with French fries and shrimp",
+          "Description": "",
+          "Price": 8.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Kid's Pizza",
+          "Description": "Cheese, or pepperoni pizza. Served with side of fries",
+          "Price": 3.75,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Vegetarian",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Vegetarian 1",
+          "Description": "One bean burrito, one cheese enchilada, and Mexican rice",
+          "Price": 7.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Vegetarian 2",
+          "Description": "One chalupa, one bean burrito, and one quesadilla",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Vegetarian 3",
+          "Description": "One bean burrito with nacho cheese, and one chalupa",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Vegetarian 4",
+          "Description": "One chalupa, one cheese enchilada, and one bean burrito",
+          "Price": 7.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Mushroom Quesadillas",
+          "Description": "Two flour tortillas stuffed with cheese, and fresh mushrooms. Served with guacamole salad, and sour cream",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Veggie Fajitas",
+          "Description": "Broccoli, peppers, onions, carrots, and mushrooms cooked to perfection. Served with rice, beans, salad, and tortillas",
+          "Price": 9.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chiles Poblanos",
+          "Description": "Two chile poblanos stuffed with cheese, fried in egg batter, covered with special sauce, and sour cream. Served with rice, and beans",
+          "Price": 10.5,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Spinach Cream Burritos",
+          "Description": "Two flour tortillas grilled, and stuffed with spinach. Topped with lettuce, cheese, and sour cream",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Spinach Quesadillas",
+          "Description": "Two flour tortillas grilled, and stuffed with spinach. Topped with lettuce, guacamole, sour cream, and tomatoes",
+          "Price": 7.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Enchiladas Suizas",
+          "Description": "Three enchiladas - spinach, cheese, and bean with lettuce, sour cream, tomatoes, cheese, and special sauce",
+          "Price": 7.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Los Tres Amigos",
+          "Description": "The Three Friends - spinach burrito, cheese enchilada, and bean taco",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Taco Loco",
+          "Description": "Crispy tortilla shell stuffed with lettuce, sour cream, guacamole, cheese, tomatoes, spinach, and beans",
+          "Price": 5.75,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "El Vegetarian",
+          "Description": "Spinach burrito, cheese enchilada, rice, beans, and sour cream",
+          "Price": 8.25,
+          "Multi Pricing": ""
+        }
+      ]
+    },
+    {
+      "Category": "Descriptions of Mexican Plates",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Burritos (Bu-ree-tohs)",
+          "Description": "Flour tortillas rolled around beef filling, and topped with cheese, and onion sauce",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chalupas (Cha-lu-pahs)",
+          "Description": "Flat tortillas with fried beans sprinkled with cheese, and topped with guacamole salad",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chiles Rellenos (Chee-lays Ray-yay-nohs)",
+          "Description": "Chile peppers stuffed with cheese, and meat",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Chiles Poblanos (Chee-lays Puh-bla-nohs)",
+          "Description": "Peppers stuffed with cheese with a special sauce",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Enchiladas (En-chee-lah-dahs)",
+          "Description": "Corn tortillas rolled around seasoned filling topped with cheese, and sauce",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Nachos (nah-chohs)",
+          "Description": "Melted cheese with green Ortega chile peppers on toasted tortillas",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Quesadillas (Kay-sah-dee-yahs)",
+          "Description": "Flour tortillas filled with cheese, pan fried, and rolled",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tacos (tah-kohs)",
+          "Description": "Tortillas folded, and fried crisp, filled with beef, lettuce, and cheese",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tamales (Tah-mah-lays)",
+          "Description": "Savory meat fillings steamed in corn meal casing",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tortillas (Tohr-tee-yahs)",
+          "Description": "Thin corn pancakes used as a base for many dishes",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Tostaguacs (Tohs-tah-gwahks)",
+          "Description": "Flat tortillas with beef topped with lettuce, guacamole, cheese, and tomatoes",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Duritos (Du-ree-tohs)",
+          "Description": "Tortillas cur, and fried crispy in oil",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Frijoles Refritos (Free-hoh-lays Ray-free-tohs)",
+          "Description": "Fried beans",
+          "Price": 0,
+          "Multi Pricing": ""
+        }
+      ]
+    }
+  ]
+}
+

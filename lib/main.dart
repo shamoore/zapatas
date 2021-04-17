@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zapatas/menuView.dart';
+import 'package:zapatas/resources/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,6 +16,7 @@ class _AppState extends State<InitializationApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MenuView(),
+      theme: appTheme,
     );
   }
 }

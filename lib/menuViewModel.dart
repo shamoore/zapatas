@@ -3,10 +3,10 @@ import 'package:zapatas/menuService.dart';
 
 class MenuViewModel extends BaseViewModel {
   final MenuService _menuService = MenuService();
-  List<MenuItem> menuItems;
+  List<MenuCategory> menu;
 
   Future<void> getMenu() async {
-    menuItems = await _menuService.getMenu();
+    menu = await _menuService.getMenu();
     notifyListeners();
   }
 }
