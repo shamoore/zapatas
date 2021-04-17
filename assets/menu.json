@@ -1382,8 +1382,14 @@
     },
     {
       "Category": "Little Amigo's Menu",
-      "Description": "Kid's soft drinks - 1.25 For Children 10 years old, and under. Add $1.00 for Adult.",
+      "Description": "For Children 10 years old, and under. Add $1.00 for Adult.",
       "Items": [
+        {
+          "Item": "Kid's soft drink",
+          "Description": "",
+          "Price": 1.25,
+          "Multi Pricing": ""
+        },
         {
           "Item": "Beef Burrito, rice, and French fries",
           "Description": "",

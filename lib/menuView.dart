@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_autolink_text/flutter_autolink_text.dart';
 import 'package:intl/intl.dart';
 import 'package:stacked/stacked.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:zapatas/menuService.dart';
 import 'package:zapatas/menuViewModel.dart';
 
@@ -41,7 +43,21 @@ List<Widget> _getExpandables(List<MenuCategory> categories, BuildContext context
     var thisCategory = categories[i];
 
     ExpansionTile tile = ExpansionTile(
-        title: Text(thisCategory.name, style: categoryTextStyle), initiallyExpanded: false, children: _categoryItems(thisCategory.items, context));
+        title: Column(
+          children: [
+            Text(thisCategory.name, style: categoryTextStyle),
+            thisCategory.description.isNotEmpty
+                ? Text(
+                    thisCategory.description,
+                    style: categoryTextStyleSub,
+                  )
+                : SizedBox(
+                    height: 1,
+                  )
+          ],
+        ),
+        initiallyExpanded: false,
+        children: _categoryItems(thisCategory.items, context));
     expandables.add(tile);
   }
   return expandables;
@@ -55,15 +71,17 @@ List<Widget> _getHeader() {
     ),
   );
   header.add(
-    Text(
-      Strings.phone,
-      style: categoryTextStyle,
+    AutolinkText(
+      text: Strings.phone,
+      textStyle: categoryTextStyleSub,
+      linkStyle: categoryTextStyleLink,
+      onPhoneTap: (link) => launch('tel://$link'),
     ),
   );
   header.add(
     Text(
       Strings.address,
-      style: categoryTextStyle,
+      style: categoryTextStyleSub,
     ),
   );
 
@@ -74,7 +92,7 @@ List<Widget> _getHeader() {
 }
 
 String getPrice(num price) {
-  if (price != null) {
+  if (price != null && price != 0) {
     final currencyFormat = NumberFormat("#,##0.00", "en_US");
     return '\$${currencyFormat.format(price)}';
   } else
