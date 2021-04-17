@@ -1643,6 +1643,84 @@
           "Multi Pricing": ""
         }
       ]
+    },
+    {
+      "Category": "Beverages",
+      "Description": "",
+      "Items": [
+        {
+          "Item": "Soft Drinks",
+          "Description": "Pepsi, Diet Pepsi, Sierra Mist, Lemonade, Dr Pepper, Mountain Dew, Iced Tea (Free Refills)",
+          "Price": 2.25,
+          "Multi Pricing": "Jarritos (Mexican Soft Drinks) - 1.95 \nMilk - 1.95\nOrange Juice - 2.25\nCoffee (Free Refills) - 1.50"
+        },
+        {
+          "Item": "Domestic Beer",
+          "Description": "Budweiser, Bud Light, Bud Light Lime, Ice House, Coors Light, Miller Lite, Michelob Light, Natural Light",
+          "Price": 3.25,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Imported Beer",
+          "Description": "Corona, Corona Light, Tecate, Model Especial, Negra Modelo, Dos Equis (XX) Amber, Dos Equis (XX) Lager, Bohemia, Victoria, Pacifico, Heineken",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Draft Beer",
+          "Description": "Bud Light, Michelob Ultra, Dos Equis (XX) Dark, Yeungling, Modelo Especial",
+          "Price": 0,
+          "Multi Pricing": "Domestic: 1.95 - 4.50 - 7.50, Mexican: 2.50 - 5.50 - 8.50"
+        },
+        {
+          "Item": "Wines (By the glass)",
+          "Description": "Sangria, Cabernet Sauvignon, Moscato, Merlot, White Zinfandel, Chardonnay",
+          "Price": 3.95,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Daiquiris",
+          "Description": "Strawberry, Line, Peach, Mango, Raspberry, Banana",
+          "Price": 0,
+          "Multi Pricing": "Glass (16oz) 5.50, Jumbo (27oz) 9.75"
+        },
+        {
+          "Item": "Pina Colada",
+          "Description": "",
+          "Price": 0,
+          "Multi Pricing": "Glass (16oz) 5.50, Jumbo (27oz) 9.75"
+        },
+        {
+          "Item": "Mixed Drinks",
+          "Description": "Available Full Service Bar",
+          "Price": 0,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Margaritas",
+          "Description": "Lime Only, Frozen or on the Rocks House Tequila",
+          "Price": 0,
+          "Multi Pricing": "Glass (16oz) 4.95\nJumbo (27oz) 8.75\nPitcher (60)oz 19.75"
+        },
+        {
+          "Item": "Margaritas",
+          "Description": "Stawberry, Peach, Raspberry, Banana, Mango",
+          "Price": 5.50,
+          "Multi Pricing": ""
+        },
+        {
+          "Item": "Texas Gold Margaritas",
+          "Description": "Cuervo Gold, Grand Marnier",
+          "Price": 0,
+          "Multi Pricing": "Glass (16oz) 6.54\nJumbo (27oz) 10.95\nPitcher (60)oz 23.00"
+        },
+        {
+          "Item": "The Midori Gold Margaritas",
+          "Description": "Made Exclusively with Sauza Commemorativo Tequila, Midori Melon Liqueur, sweet and sour mix, and lime juice",
+          "Price": 7.25,
+          "Multi Pricing": ""
+        }
+      ]
     }
   ]
 }

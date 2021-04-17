@@ -25,3 +25,5 @@ TextStyle categoryTextStyleLink = TextStyle(
 );
 
 TextStyle menuTextStyle = TextStyle(fontFamily: 'Roboto', fontSize: 20, color: Colors.black);
+TextStyle menuTextStyleBold = TextStyle(fontFamily: 'Roboto', fontSize: 22, color: Colors.black);
+TextStyle menuTextStyleSmall = TextStyle(fontFamily: 'Roboto', fontSize: 15, color: Colors.black87);

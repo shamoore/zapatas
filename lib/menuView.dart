@@ -45,10 +45,15 @@ List<Widget> _getExpandables(List<MenuCategory> categories, BuildContext context
     ExpansionTile tile = ExpansionTile(
         title: Column(
           children: [
-            Text(thisCategory.name, style: categoryTextStyle),
+            Text(
+              thisCategory.name,
+              style: categoryTextStyle,
+              textAlign: TextAlign.center,
+            ),
             thisCategory.description.isNotEmpty
                 ? Text(
                     thisCategory.description,
+                    textAlign: TextAlign.center,
                     style: categoryTextStyleSub,
                   )
                 : SizedBox(
@@ -122,12 +127,29 @@ List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
                 Expanded(
                   child: Text(
                     thisMenuItem.description,
+                    style: menuTextStyle,
                   ),
                 ),
               ]
             : [],
       ),
     );
+    items.add(
+      Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: thisMenuItem.multiPrice.isNotEmpty
+            ? [
+                Expanded(
+                  child: Text(
+                    thisMenuItem.multiPrice,
+                    style: menuTextStyleSmall,
+                  ),
+                ),
+              ]
+            : [],
+      ),
+    );
+
     items.add(
       dividerLine(),
     );
