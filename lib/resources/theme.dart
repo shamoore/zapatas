@@ -18,7 +18,7 @@ TextStyle categoryTextStyleSub = TextStyle(
   color: Colors.black,
 );
 TextStyle categoryTextStyleLink = TextStyle(
-  fontFamily: 'Burrito',
+  fontFamily: 'Roboto',
   fontSize: 20,
   color: Colors.blue.shade800,
   decoration: TextDecoration.underline,

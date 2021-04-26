@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_autolink_text/flutter_autolink_text.dart';
 import 'package:intl/intl.dart';
 import 'package:stacked/stacked.dart';
+import 'package:universal_io/io.dart' show Platform;
 import 'package:url_launcher/url_launcher.dart';
 import 'package:zapatas/menuService.dart';
 import 'package:zapatas/menuViewModel.dart';
@@ -45,10 +46,13 @@ List<Widget> _getExpandables(List<MenuCategory> categories, BuildContext context
     ExpansionTile tile = ExpansionTile(
         title: Column(
           children: [
-            Text(
-              thisCategory.name,
-              style: categoryTextStyle,
-              textAlign: TextAlign.center,
+            Container(
+              padding: EdgeInsets.all(10),
+              child: Text(
+                thisCategory.name,
+                style: categoryTextStyle,
+                textAlign: TextAlign.center,
+              ),
             ),
             thisCategory.description.isNotEmpty
                 ? Text(
@@ -76,24 +80,128 @@ List<Widget> _getHeader() {
     ),
   );
   header.add(
-    AutolinkText(
-      text: Strings.phone,
-      textStyle: categoryTextStyleSub,
-      linkStyle: categoryTextStyleLink,
-      onPhoneTap: (link) => launch('tel://$link'),
-    ),
-  );
-  header.add(
-    Text(
-      Strings.address,
-      style: categoryTextStyleSub,
+    ExpansionTile(
+      title: Text(
+        Strings.locations,
+        style: categoryTextStyleSub,
+        textAlign: TextAlign.center,
+      ),
+      initiallyExpanded: false,
+      children: [
+        (Platform.isAndroid || Platform.isIOS) ? _getColumnOfLocations() : _getRowOfLocations(),
+      ],
     ),
   );
 
-  header.add(
-    SizedBox(height: 50),
-  );
   return header;
+}
+
+Row _getRowOfLocations() {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children: [
+      Column(
+        children: [
+          Text(Strings.city, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address,
+            style: categoryTextStyleSub,
+          ),
+        ],
+      ),
+      Column(
+        children: [
+          Text(Strings.city2, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone2,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address2,
+            style: categoryTextStyleSub,
+          ),
+        ],
+      ),
+      Column(
+        children: [
+          Text(Strings.city3, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone3,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address3,
+            style: categoryTextStyleSub,
+          ),
+        ],
+      ),
+    ],
+  );
+}
+
+Column _getColumnOfLocations() {
+  return Column(
+    children: [
+      Column(
+        children: [
+          Text(Strings.city, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address,
+            style: categoryTextStyleSub,
+          ),
+          dividerLine(),
+        ],
+      ),
+      Column(
+        children: [
+          Text(Strings.city2, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone2,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address2,
+            style: categoryTextStyleSub,
+          ),
+          dividerLine()
+        ],
+      ),
+      Column(
+        children: [
+          Text(Strings.city3, style: categoryTextStyleSub),
+          AutolinkText(
+            text: Strings.phone3,
+            textStyle: categoryTextStyleSub,
+            linkStyle: categoryTextStyleLink,
+            onPhoneTap: (link) => launch('tel://$link'),
+          ),
+          Text(
+            Strings.address3,
+            style: categoryTextStyleSub,
+          ),
+          dividerLine()
+        ],
+      ),
+    ],
+  );
 }
 
 String getPrice(num price) {
@@ -109,15 +217,24 @@ List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
 
   for (var j = 0; j < menuItems.length; j++) {
     var thisMenuItem = menuItems[j];
-    items.add(Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Text(thisMenuItem.name, style: menuTextStyle),
-        Text(
-          getPrice(thisMenuItem.price),
-          style: menuTextStyle,
-        ),
-      ],
+    items.add(Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Expanded(
+            child: Text(
+              thisMenuItem.name,
+              style: menuTextStyle,
+              textAlign: TextAlign.start,
+            ),
+          ),
+          Text(
+            getPrice(thisMenuItem.price),
+            style: menuTextStyle,
+            textAlign: TextAlign.end,
+          ),
+        ],
+      ),
     ));
     items.add(
       Row(
@@ -127,7 +244,7 @@ List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
                 Expanded(
                   child: Text(
                     thisMenuItem.description,
-                    style: menuTextStyle,
+                    style: menuTextStyleSmall,
                   ),
                 ),
               ]
@@ -157,7 +274,6 @@ List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
       SizedBox(height: 10),
     );
   }
-
   return items;
 }
 
