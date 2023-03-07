@@ -3,17 +3,19 @@ on:
   push:
     branches:
       - main
+
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
-          with:
-            java-version: '12.x'
+        with:
+          java-version: '12.x'
       - uses: subosito/flutter-action@v1
-          with:
-            channel: 'beta'
+        with:
+          channel: 'beta'
       # Get flutter dependencies.
       - run: flutter pub get
 
@@ -23,6 +25,7 @@ jobs:
       # Statically analyze the Dart code for any errors.
       - run: flutter analyze .
 
-
+      # Run widget tests for our flutter project.
+      - run: flutter test
       # Build web .
       - run: flutter build web
