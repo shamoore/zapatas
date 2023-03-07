@@ -2,12 +2,12 @@
   "menu": [
     {
       "Category": "Appetizers",
-      "Description": "All prices subject to change",
+      "Description": "",
       "Items": [
         {
           "Item": "Nachos ",
           "Description": "",
-          "Price": 4,
+          "Price": 6,
           "Multi Pricing": ""
         },
         {

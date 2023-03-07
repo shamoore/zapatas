@@ -15,4 +15,6 @@ class Strings {
 
   static const String developer = "Shannon Moore";
   static const String developerEmail = "shawhiz@gmail.com";
+
+  static const String priceDisclaimer = "Prices subject to change";
 }
