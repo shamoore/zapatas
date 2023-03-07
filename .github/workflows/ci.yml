@@ -12,6 +12,7 @@ jobs:
           with:
             java-version: '12.x'
       - uses: subosito/flutter-action@v1
+<<<<<<< Updated upstream
           with:
             channel: 'beta'
       # Get flutter dependencies.
@@ -24,5 +25,9 @@ jobs:
       - run: flutter analyze .
 
 
+=======
+        with:
+          channel: 'beta'
+>>>>>>> Stashed changes
       # Build web .
       - run: flutter build web
