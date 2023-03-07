@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_autolink_text/flutter_autolink_text.dart';
 import 'package:intl/intl.dart';
@@ -38,7 +37,8 @@ List<Widget> _getMenu(List<MenuCategory> categories, BuildContext context) {
   return menu;
 }
 
-List<Widget> _getExpandables(List<MenuCategory> categories, BuildContext context) {
+List<Widget> _getExpandables(
+    List<MenuCategory> categories, BuildContext context) {
   List<Widget> expandables = [];
   for (var i = 0; i < categories.length; i++) {
     var thisCategory = categories[i];
@@ -86,13 +86,32 @@ List<Widget> _getHeader() {
         style: categoryTextStyleSub,
         textAlign: TextAlign.center,
       ),
-      initiallyExpanded: false,
+      initiallyExpanded: true,
       children: [
-        (Platform.isAndroid || Platform.isIOS) ? _getColumnOfLocations() : _getRowOfLocations(),
+        (Platform.isAndroid || Platform.isIOS)
+            ? _getColumnOfLocations()
+            : _getRowOfLocations(),
       ],
     ),
   );
 
+  header.add(
+    dividerLine(),
+  );
+  header.add(
+    SizedBox(height: 10),
+  );
+  header.add(Text(Strings.priceDisclaimer,
+      style: categoryTextStyle, textAlign: TextAlign.center));
+  header.add(
+    SizedBox(height: 10),
+  );
+  header.add(
+    dividerLine(),
+  );
+  header.add(
+    SizedBox(height: 10),
+  );
   return header;
 }
 
@@ -239,7 +258,8 @@ List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
     items.add(
       Row(
         mainAxisAlignment: MainAxisAlignment.start,
-        children: thisMenuItem.description.length != null && thisMenuItem.description.length > 0
+        children: thisMenuItem.description.length != null &&
+                thisMenuItem.description.length > 0
             ? [
                 Expanded(
                   child: Text(

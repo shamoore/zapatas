@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 
 ThemeData appTheme = ThemeData(
   brightness: Brightness.light,
-  primaryColor: Colors.orangeAccent,
-  accentColor: Colors.red,
+  primaryColor: Colors.orangeAccent, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.red),
 );
 
 TextStyle categoryTextStyle = TextStyle(
