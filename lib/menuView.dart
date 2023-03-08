@@ -86,7 +86,7 @@ List<Widget> _getHeader() {
         style: categoryTextStyleSub,
         textAlign: TextAlign.center,
       ),
-      initiallyExpanded: true,
+      initiallyExpanded: false,
       children: [
         (Platform.isAndroid || Platform.isIOS)
             ? _getColumnOfLocations()
@@ -231,7 +231,8 @@ String getPrice(num price) {
     return Strings.emptyString;
 }
 
-List<Widget> _categoryItems(List<ZapatasMenuItem> menuItems, BuildContext context) {
+List<Widget> _categoryItems(
+    List<ZapatasMenuItem> menuItems, BuildContext context) {
   List<Widget> items = [];
 
   for (var j = 0; j < menuItems.length; j++) {
