@@ -1,4 +1,4 @@
-name: CI
+name: Build and Deploy
 on:
   push:
     branches:
@@ -6,13 +6,31 @@ on:
 
 jobs:
   build:
-    name: Build Web
+    name: Build Web and Deploy to Firebase
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
         with:
           channel: 'dev'
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+                - with:
+                repoToken: '${{ secrets.GITHUB_TOKEN }}'
+                firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZAPATAS_MENU }}'
+                channelId: live
+                projectId: zapatas-menu
       - run: flutter config --enable-web
       - run: flutter pub get
       - run: flutter build web
+
+
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZAPATAS_MENU }}'
+          channelId: live
+          projectId: zapatas-menu
