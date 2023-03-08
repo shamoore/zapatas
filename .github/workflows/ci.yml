@@ -5,8 +5,8 @@ on:
       - main
 
 jobs:
-  name: Build Web
   build:
+    name: Build Web
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
