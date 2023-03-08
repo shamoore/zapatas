@@ -231,7 +231,7 @@ String getPrice(num price) {
     return Strings.emptyString;
 }
 
-List<Widget> _categoryItems(List<MenuItem> menuItems, BuildContext context) {
+List<Widget> _categoryItems(List<ZapatasMenuItem> menuItems, BuildContext context) {
   List<Widget> items = [];
 
   for (var j = 0; j < menuItems.length; j++) {
