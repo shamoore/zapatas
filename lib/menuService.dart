@@ -16,11 +16,11 @@ class MenuService {
   }
 }
 
-class MenuItem {
-  MenuItem(this.name, this.description, this.price, this.multiPrice);
+class ZapatasMenuItem {
+  ZapatasMenuItem(this.name, this.description, this.price, this.multiPrice);
 
-  factory MenuItem.from(dynamic json) {
-    return MenuItem(json['Item'] as String, json['Description'] as String, json['Price'] as num, json['Multi Pricing'] as String);
+  factory ZapatasMenuItem.from(dynamic json) {
+    return ZapatasMenuItem(json['Item'] as String, json['Description'] as String, json['Price'] as num, json['Multi Pricing'] as String);
   }
 
   String name;
@@ -32,7 +32,7 @@ class MenuItem {
 class MenuCategory {
   String name;
   String description;
-  List<MenuItem> items;
+  List<ZapatasMenuItem> items;
 
   MenuCategory(this.name, this.description, this.items);
 
@@ -41,6 +41,6 @@ class MenuCategory {
   }
 }
 
-List<MenuItem> convertItems(List<dynamic> jsonItems) {
-  return jsonItems.map<MenuItem>((item) => MenuItem.from(item)).toList();
+List<ZapatasMenuItem> convertItems(List<dynamic> jsonItems) {
+  return jsonItems.map<ZapatasMenuItem>((item) => ZapatasMenuItem.from(item)).toList();
 }
