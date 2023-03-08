@@ -34,7 +34,7 @@ flutter:
         - asset: assets/burrito.ttf
     - family: Roboto
       fonts:
-        - asset: assets/roboto.TTF
+        - asset: assets/roboto.ttf
   uses-material-design: true
 
 flutter_icons:
